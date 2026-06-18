@@ -19,3 +19,6 @@ Thumbs.db
 
 secrets/
 *.json
+
+# Personal references
+Quick Access.txt
