@@ -1,5 +1,5 @@
 select
-    id as user_id,
+    id as customer_id,
     age,
     gender,
     city,

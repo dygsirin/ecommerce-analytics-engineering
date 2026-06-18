@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: >
+      Dimensional table for customer information.
+      Each row represents a unique customer.
+
+    columns:
+
+      - name: customer_id
+        description: Unique identifier of a customer. Primary key of the dimensional table.
+        tests:
+          - unique
+          - not_null
+
+      - name: country
+        description: Country of the customer.
+
+      - name: traffic_source
+        description: Source of traffic through which the customer was acquired.
+
+      - name: created_at
+        description: Timestamp when the customer was created in the system.
+
+      
